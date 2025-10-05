@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://10.0.132.102:5445/monitor?currentSchema=stp-autotest
+    username: monitor_db_dev
+    password: monitor_db_dev
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        default_schema: stp_autotest
